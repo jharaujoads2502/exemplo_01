@@ -46,7 +46,7 @@ test('Teste 02 - Mock Timer', done => {
   expect(mockCallback).toHaveBeenCalledTimes(1);
 });
 
-test('Teste 03 - subtrair', () => {
+test('Teste 03 - subtrair ', () => {
   const resultado = exemploMock.subtrair(2, 1);
   expect(resultado).toBe(1);
 });
